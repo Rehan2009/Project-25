@@ -35,3 +35,8 @@ function draw() {
  
 }
 
+function keyPressed(){
+ paper.Upkey();	
+}
+
+
