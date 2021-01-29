@@ -32,7 +32,6 @@ function draw() {
   groundObject.display();
   dustbinObj.display();
   paperball.display();
-  
- drawSprites();
+ 
 }
 
