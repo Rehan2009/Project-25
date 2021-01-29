@@ -11,17 +11,7 @@ class Paper{
         this.image = loadImage("paper.png");
         World.add(world, this.body);
       }
-    Upkey(){
-           if (keyCode === UP_ARROW) {
-          this.body.position.y = -50
-          this.body.position.x = 1200
-          Matter.Body.setStatic(this.body,true);
-          
-            } 
-        if(this.body.position.y === -50){
-          Matter.Body.setStatic(this.body,false);
-        }
-    }
+  
       display(){
         push();
         
